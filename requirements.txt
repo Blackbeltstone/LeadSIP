@@ -1,0 +1,21 @@
+Flask
+Werkzeug
+gunicorn
+python-dotenv
+MarkupSafe
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+pandas
+qrcode
+fpdf
+xlsxwriter
+numpy
+openpyxl
+SQLAlchemy
+# psycopg2
+#mysqlclient
+Flask-Cors
+Passlib
+openpyxl
+PyPDF2

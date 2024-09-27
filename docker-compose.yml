@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  flask:
+    build: .
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app/static/uploads:/app/static/uploads
+    environment:
+      - FLASK_APP=run.py
+      - FLASK_ENV=development
+      - SECRET_KEY=d5500736a67ce0c58b099f45940287d4835bd3e6694602cb
+      - SQLALCHEMY_DATABASE_URI=sqlite:///instance/site.db
+      - UPLOAD_FOLDER=app/static/uploads

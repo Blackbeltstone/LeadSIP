@@ -1,0 +1,5 @@
+/app/static/qr_codes/
+.env
+__pycache__
+venv
+.venv
